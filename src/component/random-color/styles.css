@@ -1,0 +1,41 @@
+.cta_buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.cta_buttons button {
+  background: white;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 10px 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.color__details {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: fixed;
+  width: 100%;
+  bottom: 2rem;
+}
+
+.color__format,
+.color__code {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.copy__button {
+  border: 1px solid lightgray;
+  background: #fff;
+  color: #121212;
+  padding: 10px 20px;
+  cursor: pointer;
+}
